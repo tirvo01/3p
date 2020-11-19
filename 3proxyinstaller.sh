@@ -16,15 +16,3 @@ cd /etc/init.d/
 wget --no-check-certificate https://raw.github.com/barankilic/3proxy/master/3proxyinit
 chmod  +x /etc/init.d/3proxyinit
 update-rc.d 3proxyinit defaults
-sudo chmod -R 777 /etc/3proxy *
-/etc/init.d/3proxyinit start
-
-netstat -ntlp
-
-systemctl status 3proxyinit
-
-echo "";
-	echo "";
-	echo "";
-	echo "";
-	echo "============================ Kit 1.0 Instalado Com Sucesso!!! ============================";
